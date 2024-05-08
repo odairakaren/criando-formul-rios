@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Criando Formulários</title>
+</head>
+<body>
+    <div class="rectangle">
+        <div class="internal-rectangle">
+            <h2>MENTORIA</h2>
+            <h4>Preencha o formulário abaixo para <br>agendar a sua mentoria</h4>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="informationpeople">
+            <h3>INFORMAÇÕES PESSOAIS</h3> 
+            <hr>
+            <div class="inline-row">
+                <div class="input-container">   
+                    <h5>Nome</h5>  
+                    <input id="name" type="text">             
+                </div>
+    
+                <div class="input-container">
+                    <h5>Sobrenome</h5>
+                    <input id="lastname" type="text">
+                </div>
+            </div>
+
+
+            <div class="input-container">
+                <h5>Email</h5>
+                <h6>(digite um email válido)</h6>
+                <input id="email"type="text">
+            </div>
+
+            <div class="input-container">
+                <h5>Senha</h5>
+                <h6>(mínimo de 6 caracteres)</h6>
+                <input id="password" type="text">
+            </div>
+            
+
+
+        </div>
+
+        <div class="informationmentor">
+            <h3>INFORMAÇÕES DO MENTOR</h3>
+            <hr>
+            <h5>Nome do seu mentor</h5>
+            <h6>(só o primeiro nome)</h6>
+            <input id="namementor" type="text"> 
+        </div>
+
+        <div class="times">
+            <h3>SEUS HORÁRIOS DISPONIVÉIS</h3>
+            <div>
+                <hr>
+            </div>
+            
+            <h3 class="mentoring">PRIMEIRA MENTORIA</h3>
+
+            <div class="side">
+                <div class="side-item">
+                    <div class="side-item-legend">
+                        <h5>Data</h5>
+                        <h6>(DD/MM/AAAA)</h6>
+                  </div>
+                    <input id="date" type="text"> 
+                </div>
+                <div class="date-time-wrapper">
+
+                    <div class="side-item">
+                        <h5>Das</h5>
+                        <input id="date-time" type="text">
+                    </div>
+
+                    <div class="side-item">
+                        <h5>Até</h5>
+                        <input id="date-time" type="text">
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mentoring">SEGUNDA MENTORIA</h3>
+
+            <div class="side">
+                <div class="side-item">
+                    <div class="side-item-legend">
+                        <h5>Data</h5>
+                        <h6>(DD/MM/AAAA)</h6>
+                    </div>
+                    <input id="date" type="text"> 
+                </div>
+                <div class="date-time-wrapper">
+                    <div class="side-item">
+                        <h5>Das</h5>
+                        <input id="date-time" type="text">  
+                    </div>
+                    <div class="side-item">
+                        <h5>Até</h5>
+                        <input id="date-time" type="text">   
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="down">
+        <button>
+            <h4>SALVAR</h4>
+        </button>
+    </div>
+</body>
+</html>

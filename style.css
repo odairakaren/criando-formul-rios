@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EFEFEF;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #E6E6F0;
+}
+
+.rectangle{
+    width: 1440px;
+    height: 436px;
+    background-color: #535971;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.internal-rectangle{
+    width: 878px;
+}
+
+.rectangle h2{
+    font-family: "Staatliches";
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.rectangle h4{
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    width: 750px;
+    /* height: 1084px; */
+    background-color: #FFFFFF;
+    margin-top: -5rem;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 30px; */
+    padding: 4rem;
+    
+}
+
+.informationpeople{
+    width: 622px;
+    height: 382px;
+}
+
+.informationmentor{
+    width: 622px;
+    height: 162px;
+}
+
+h3{
+    font-family: "Staatliches";
+    font: 24px;
+    font-weight: normal;
+    color: #535971;
+}
+.mentoring{
+    font-family: "Staatliches";
+    font-size: 20px;
+}
+
+h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Staatliches";
+    font-weight: normal;
+
+}
+
+h5{
+    color: #4E4958;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: normal;
+}
+
+h6{
+    color: #C1BCCC;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#name{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+#lastname{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+#email{
+    width: 622px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+#password{
+    width: 622px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+#namementor{
+    width: 622px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+#date{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+#date-time{
+    width: 140px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.5px solid #C1BCCC;
+}
+
+.times{
+    width: 622px; 
+    height: 350px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.division{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.down{
+    width: 750px;
+    height: 160px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #535971;
+    border-radius: 0 0 20px 20px;
+    padding: 0 4rem 0 4rem;
+}
+
+.side{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-item-legend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.side-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-time-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date-time-wrapper .side-item:first-child{
+    margin-right: 10px;
+}
+
+div button{
+    width: 608px;
+    height: 55.65px;
+    border-radius: 20px;
+    font-family: "Staatliches";
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #FF5374;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inline-row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
